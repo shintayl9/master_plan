@@ -23,13 +23,13 @@ Langkah 5: Pindah ke file main.dart
 Langkah 6: buat plan_screen.dart
 ![alt text](image-6.png)
 
-Langkah 7: buat method _buildAddTaskButton()
+Langkah 7: buat method \_buildAddTaskButton()
 ![alt text](image-7.png)
 
-Langkah 8: buat widget _buildList()
+Langkah 8: buat widget \_buildList()
 ![alt text](image-8.png)
 
-Langkah 9: buat widget _buildTaskTile
+Langkah 9: buat widget \_buildTaskTile
 ![alt text](image-9.png)
 ![alt text](image-4.png)
 
@@ -49,19 +49,20 @@ Langkah 14: Hasil
 ![alt text](image-14.png)
 
 Tugas Praktikum 1: Dasar State dengan Model-View
-1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
-![alt text](master_plan.gif)
 
-2.	Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
-Maksud dari langkah 4 pada praktikum 1 adalah bertujuan untuk menyederhanakan proses impor. Dengan mengekspor plan.dart dan task.dart melalui data_layer.dart, maka cukup mengimpor data_layer.dart saja untuk mendapatkan akses pada keduanya dan membuat kode lebih efisien dan rapi.
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
+   ![alt text](master_plan.gif)
 
-3.	Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
-Perlu variabel plan di langkah 6 pada praktikum 1 karena
+2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
+   Maksud dari langkah 4 pada praktikum 1 adalah bertujuan untuk menyederhanakan proses impor. Dengan mengekspor plan.dart dan task.dart melalui data_layer.dart, maka cukup mengimpor data_layer.dart saja untuk mendapatkan akses pada keduanya dan membuat kode lebih efisien dan rapi.
 
-4.	Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-5.	Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
+3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
+   Perlu variabel plan di langkah 6 pada praktikum 1 karena
 
-6.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
+
+6. Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 Langkah 1: Buat file plan_provider.dart
@@ -76,13 +77,13 @@ Langkah 3: Tambah method pada model plan.dart
 Langkah 4: Pindah ke PlanScreen
 ![alt text](image-18.png)
 
-Langkah 5: Edit method _buildAddTaskButton
+Langkah 5: Edit method \_buildAddTaskButton
 ![alt text](image-19.png)
 
-Langkah 6: Edit method _buildTaskTile
+Langkah 6: Edit method \_buildTaskTile
 ![alt text](image-20.png)
 
-Langkah 7: Edit _buildList
+Langkah 7: Edit \_buildList
 ![alt text](image-21.png)
 
 Langkah 9: Tambah widget SafeArea
@@ -90,11 +91,11 @@ Langkah 9: Tambah widget SafeArea
 
 Tugas Praktikum 2: InheritedWidget
 
-1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
-2.	Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
-3.	Jelaskan maksud daíi method di langkah 3 pada píaktikum tersebut! Mengapa dilakukan demikian?
-4.	Lakukan capture hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-5.	Kumpulkan lapoían praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
+3. Jelaskan maksud daíi method di langkah 3 pada píaktikum tersebut! Mengapa dilakukan demikian?
+4. Lakukan capture hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+5. Kumpulkan lapoían praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 3: Membuat State di Multiple Screens
 Langkah 1: Edit PlanProvider
@@ -117,35 +118,35 @@ Langkah 7: Widget build
 ![alt text](image-29.png)
 ![alt text](image-30.png)
 
-Langkah 8: Edit _buildTaskTile
+Langkah 8: Edit \_buildTaskTile
 ![alt text](image-31.png)
 
 Langkah 9: Buat screen baru
 ![alt text](image-32.png)
 ![alt text](image-33.png)
 
-Langkah 10: Pindah ke class _PlanCreatorScreenState
+Langkah 10: Pindah ke class \_PlanCreatorScreenState
 ![alt text](image-34.png)
 
 Langkah 11: Pindah ke method build
 ![alt text](image-35.png)
 
-Langkah 12: Buat widget _buildListCreator
+Langkah 12: Buat widget \_buildListCreator
 ![alt text](image-36.png)
 
 Langkah 13: Buat void addPlan()
 ![alt text](image-37.png)
 
-Langkah 14: Buat widget _buildMasterPlans()
+Langkah 14: Buat widget \_buildMasterPlans()
 ![alt text](image-38.png)
 ![alt text](image-39.png)
 
 Tugas Praktikum 3: State di Multiple Screens
 
-1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
-![alt text](master_plan2.gif)
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+   ![alt text](master_plan2.gif)
 
-2.	Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
-![alt text](image-40.png)
-3.	Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-4.	Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+   ![alt text](image-40.png)
+3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
