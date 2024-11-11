@@ -26,6 +26,7 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
       appBar: AppBar(
         title: const Text('Master Plans Shinta'),
         backgroundColor: Colors.purple,
+        foregroundColor: Colors.white,
       ),
       body: Column(
         children: [
