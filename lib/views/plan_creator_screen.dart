@@ -27,6 +27,7 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
         title: const Text('Master Plans Shinta'),
         backgroundColor: Colors.purple,
         foregroundColor: Colors.white,
+        centerTitle: true,
       ),
       body: Column(
         children: [
