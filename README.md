@@ -46,14 +46,14 @@ Langkah 14: Hasil
 
 Tugas Praktikum 1: Dasar State dengan Model-View
 
-1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
+1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
 ![alt text](master_plan.gif)
 
-2.	Jelaskan maksud daíi langkah 4 pada píaktikum teísebut! Mengapa dilakukan demikian?
-3.	Mengapa peílu vaíiabel plan di langkah 6 pada píaktikum teísebut? Mengapa dibuat konstanta ?
-4.	Lakukan captuíe hasil daíi Langkah 9 beíupa GIF, kemudian jelaskan apa yang telah Anda buat!
+2.	Jelaskan maksud dari langkah 4 pada píaktikum tersebut! Mengapa dilakukan demikian?
+3.	Mengapa perlu vaíiabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
+4.	Lakukan captuíe hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 5.	Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
-6.	Kumpulkan lapoían píaktikum Anda beíupa link commit atau íepositoíy GitHub ke spíeadsheet yang telah disediakan!
+6.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 Langkah 1: Buat file plan_provider.dart
