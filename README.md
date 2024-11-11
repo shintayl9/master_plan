@@ -3,6 +3,7 @@ NIM: 362358302076
 Kelas: 2A TRPL
 
 Praktikum 1: Dasar State dengan Model-View
+
 Langkah 1: Buat Project Baru
 
 ![alt text](image.png)
