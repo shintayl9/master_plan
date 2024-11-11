@@ -33,7 +33,7 @@ class _PlanScreenState extends State<PlanScreen> {
   Widget build(BuildContext context) {
     ValueNotifier<List<Plan>> plansNotifier = PlanProvider.of(context);
     return Scaffold(
-      appBar: AppBar(title: Text(_plan.name)),
+      appBar: AppBar(title: Text(plan.name)),
       body: ValueListenableBuilder<List<Plan>>(
         valueListenable: plansNotifier,
         builder: (context, plans, child) {
@@ -68,10 +68,6 @@ class _PlanScreenState extends State<PlanScreen> {
             name: currentPlan.name,
             tasks: updatedTasks,
           );
-        plan = Plan(
-          name: currentPlan.name,
-          tasks: updatedTasks,
-        );
       },
     );
   }
