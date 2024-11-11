@@ -14,14 +14,25 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
   final textController = TextEditingController();
 
   @override
+  void dispose() {
+    textController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
 // ganti ‘Namaku’ dengan nama panggilan Anda
-      appBar: AppBar(title: const Text('Master Plans Shinta')),
-      body: Column(children: [
-        _buildListCreator(),
-        Expanded(child: _buildMasterPlans())
-      ]),
+      appBar: AppBar(
+        title: const Text('Master Plans Shinta'),
+        backgroundColor: Colors.purple,
+      ),
+      body: Column(
+        children: [
+          _buildListCreator(),
+          Expanded(child: _buildMasterPlans()),
+        ],
+      ),
     );
   }
 
@@ -79,11 +90,5 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
                         )));
               });
         });
-  }
-
-  @override
-  void dispose() {
-    textController.dispose();
-    super.dispose();
   }
 }
