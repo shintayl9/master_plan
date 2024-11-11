@@ -1,4 +1,6 @@
-# master_plan
+Nama: Shinta Yulistiana
+NIM: 362358302076
+Kelas: 2A TRPL
 
 Praktikum 1: Dasar State dengan Model-View
 Langkah 1: Buat Project Baru
@@ -45,13 +47,16 @@ Langkah 14: Hasil
 ![alt text](image-14.png)
 
 Tugas Praktikum 1: Dasar State dengan Model-View
-
 1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
 ![alt text](master_plan.gif)
 
-2.	Jelaskan maksud dari langkah 4 pada píaktikum tersebut! Mengapa dilakukan demikian?
-3.	Mengapa perlu vaíiabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
-4.	Lakukan captuíe hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+2.	Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
+Maksud dari langkah 4 pada praktikum 1 adalah bertujuan untuk menyederhanakan proses impor. Dengan mengekspor plan.dart dan task.dart melalui data_layer.dart, maka cukup mengimpor data_layer.dart saja untuk mendapatkan akses pada keduanya dan membuat kode lebih efisien dan rapi.
+
+3.	Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
+Perlu variabel plan di langkah 6 pada praktikum 1 karena
+
+4.	Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 5.	Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 6.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
