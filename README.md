@@ -58,6 +58,7 @@ Perlu variabel plan di langkah 6 pada praktikum 1 karena
 
 4.	Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 5.	Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
+
 6.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
@@ -139,8 +140,10 @@ Langkah 14: Buat widget _buildMasterPlans()
 
 Tugas Praktikum 3: State di Multiple Screens
 
-1.	Selesaikan langkah-langkah píaktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
-2.	Beídasaíkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+1.	Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+![alt text](master_plan2.gif)
+
+2.	Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
 ![alt text](image-40.png)
 3.	Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-4.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
+4.	Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
