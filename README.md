@@ -131,3 +131,11 @@ Langkah 13: Buat void addPlan()
 Langkah 14: Buat widget _buildMasterPlans()
 ![alt text](image-38.png)
 ![alt text](image-39.png)
+
+Tugas Praktikum 3: State di Multiple Screens
+
+1.	Selesaikan langkah-langkah píaktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+2.	Beídasaíkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
+![alt text](image-40.png)
+3.	Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+4.	Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
