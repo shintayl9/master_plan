@@ -105,3 +105,28 @@ Langkah 5: Tambah getter Plan
 Langkah 6: Method initState()
 ![alt text](image-28.png)
 
+Langkah 7: Widget build
+![alt text](image-29.png)
+![alt text](image-30.png)
+
+Langkah 8: Edit _buildTaskTile
+![alt text](image-31.png)
+
+Langkah 9: Buat screen baru
+![alt text](image-32.png)
+![alt text](image-33.png)
+
+Langkah 10: Pindah ke class _PlanCreatorScreenState
+![alt text](image-34.png)
+
+Langkah 11: Pindah ke method build
+![alt text](image-35.png)
+
+Langkah 12: Buat widget _buildListCreator
+![alt text](image-36.png)
+
+Langkah 13: Buat void addPlan()
+![alt text](image-37.png)
+
+Langkah 14: Buat widget _buildMasterPlans()
+![alt text](image-38.png)

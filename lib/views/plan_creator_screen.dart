@@ -14,12 +14,6 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
   final textController = TextEditingController();
 
   @override
-  void dispose() {
-    textController.dispose();
-    super.dispose();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
 // ganti ‘Namaku’ dengan nama panggilan Anda
@@ -92,5 +86,11 @@ class _PlanCreatorScreenState extends State<PlanCreatorScreen> {
                         )));
               });
         });
+  }
+
+  @override
+  void dispose() {
+    textController.dispose();
+    super.dispose();
   }
 }
