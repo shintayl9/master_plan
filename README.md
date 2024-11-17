@@ -65,7 +65,11 @@ Tugas Praktikum 1: Dasar State dengan Model-View
    ![alt text](master_plan.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
 
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
-
+   - initState() digunakan untuk inisialisasi awal.
+   - dispose() digunakan untuk membersihkan sumber daya.
+   - ScrollController digunakan untuk mengontrol scrolling.
+   - Listener pada ScrollController digunakan digunakan untuk mendeteksi perubahan posisi scroll dan menghilangkan fokus.
+     Dengan menghilangkan fokus saat scrolling, keyboard akan tertutup secara otomatis, sehingga pengguna dapat lebih fokus pada konten yang sedang dilihat.
 
 Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 Langkah 1: Buat file plan_provider.dart
@@ -94,11 +98,15 @@ Langkah 9: Tambah widget SafeArea
 
 Tugas Praktikum 2: InheritedWidget
 
-1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
 2. Jelaskan mana yang dimaksud InheritedWidget pada langkah 1 tersebut! Mengapa yang digunakan InheritedNotifier?
-3. Jelaskan maksud daíi method di langkah 3 pada píaktikum tersebut! Mengapa dilakukan demikian?
+
+- InheritedWidget adalah sebuah widget yang dapat memberikan data ke turunannya tanpa perlu melewati proses props secara eksplisit.
+- InheritedNotifier digunakan untuk memantau perubahan data dan memudahkan akses data.
+  Dengan menggunakan InheritedNotifier, PlanProvider dengan efisien membagikan Plan ke seluruh widget tree, memastikan bahwa perubahan pada data tersebut akan segera ada dalam tampilan.
+
+3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
+
 4. Lakukan capture hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-5. Kumpulkan lapoían praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 3: Membuat State di Multiple Screens
 Langkah 1: Edit PlanProvider
@@ -152,4 +160,3 @@ Tugas Praktikum 3: State di Multiple Screens
 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
    ![alt text](image-40.png)
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
-4. Kumpulkan laporan praktikum Anda berupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
