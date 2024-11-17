@@ -62,9 +62,10 @@ Tugas Praktikum 1: Dasar State dengan Model-View
    pada saat aplikasi pertama kali dijalankan. Nilai tidak dapat diubah secara langsung setelah inisialisasi. Membuat plan sebagai konstanta membantu menjaga integritas data.
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+   ![alt text](master_plan.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
+
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
 
-6. Kumpulkan lapoían praktikum Anda beíupa link commit atau repository GitHub ke spreadsheet yang telah disediakan!
 
 Praktikum 2: Mengelola Data Layer dengan InheritedWidget dan InheritedNotifier
 Langkah 1: Buat file plan_provider.dart
