@@ -57,7 +57,9 @@ Tugas Praktikum 1: Dasar State dengan Model-View
    Maksud dari langkah 4 pada praktikum 1 adalah bertujuan untuk menyederhanakan proses impor. Dengan mengekspor plan.dart dan task.dart melalui data_layer.dart, maka cukup mengimpor data_layer.dart saja untuk mendapatkan akses pada keduanya dan membuat kode lebih efisien dan rapi.
 
 3. Mengapa perlu variabel plan di langkah 6 pada praktikum tersebut? Mengapa dibuat konstanta ?
-   Perlu variabel plan di langkah 6 pada praktikum 1 karena
+   Perlu variabel plan di langkah 6 pada praktikum 1 karena variabel plan berfungsi sebagai wadah untuk menyimpan data rencana atau plan yang akan ditampilkan di layar.
+   Dibuat konstanta karena dengan membuat plan sebagai konstanta dan memberikan nilai awal const Plan(), maka memastikan bahwa variabel tersebut memiliki nilai default
+   pada saat aplikasi pertama kali dijalankan. Nilai tidak dapat diubah secara langsung setelah inisialisasi. Membuat plan sebagai konstanta membantu menjaga integritas data.
 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
 5. Apa kegunaan method pada Langkah 11 dan 13 dalam lifecyle state ?
