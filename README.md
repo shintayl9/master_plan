@@ -168,6 +168,8 @@ Tugas Praktikum 3: State di Multiple Screens
    - PlanCreatorScreen merupakan tampilan utama yang sedang aktif.
    - Terjadi sebuah tindakan navigasi yang diwakili oleh panah biru dengan label "Navigator Push".
    - Tindakan tersebut biasanya dipicu oleh suatu event, misalnya ketika pengguna menekan tombol "Tambah plan" atau yang lain.
+   - Setelah navigasi maka struktur widget berubah, muncul widget baru yaitu Scaffold yang menjadi induk dari Column.
+   - 
 
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
    ![alt text](master_plan2.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
