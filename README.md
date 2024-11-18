@@ -106,7 +106,11 @@ Tugas Praktikum 2: InheritedWidget
 
 3. Jelaskan maksud dari method di langkah 3 pada praktikum tersebut! Mengapa dilakukan demikian?
 
-4. Lakukan capture hasil daíi Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+   - Maksud dari method di langkah 3 praktikum tersebut adalah metode getCompleteMessage berfungsi untuk membentuk sebuah pesan yang menginformasikan tentang progres penyelesaian tugas.
+     Pesan tersebut akan menunjukkan berapa banyak tugas yang telah selesai dibandingkan dengan total jumlah tugas.
+   - Dilakukan demikian karena memberikan informasi yang jelas kepada pengguna dengan menampilkan pesan yang spesifik tentang jumlah tugas yang selesai, meningkatkan user expirience yaitu
+     pesan tersebut membuat aplikasi menjadi lebih interaktif dan informatif serta memudahkan dalam pengembangan fitur lain seperti informasi mengenai jumlah tugas yang selesai dan total
+     tugas dapat digunakan untuk membuat fitur-fitur lain seperti persentase penyelesaian, notifikasi, atau laporan.
 
 Praktikum 3: Membuat State di Multiple Screens
 Langkah 1: Edit PlanProvider
