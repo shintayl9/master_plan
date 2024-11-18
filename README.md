@@ -51,7 +51,7 @@ Langkah 14: Hasil
 Tugas Praktikum 1: Dasar State dengan Model-View
 
 1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki.
-   ![alt text](master_plan.gif)
+   ![alt text](master_plan.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
 
 2. Jelaskan maksud dari langkah 4 pada praktikum tersebut! Mengapa dilakukan demikian?
    Maksud dari langkah 4 pada praktikum 1 adalah bertujuan untuk menyederhanakan proses impor. Dengan mengekspor plan.dart dan task.dart melalui data_layer.dart, maka cukup mengimpor data_layer.dart saja untuk mendapatkan akses pada keduanya dan membuat kode lebih efisien dan rapi.
@@ -158,9 +158,16 @@ Langkah 14: Buat widget \_buildMasterPlans()
 
 Tugas Praktikum 3: State di Multiple Screens
 
-1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan beíupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
-   ![alt text](master_plan2.gif)
+1. Selesaikan langkah-langkah praktikum tersebut, lalu dokumentasikan berupa GIF hasil akhir praktikum beserta penjelasannya di file README.md! Jika Anda menemukan ada yang error atau tidak berjalan dengan baik, silakan diperbaiki sesuai dengan tujuan aplikasi tersebut dibuat.
+   ![alt text](master_plan2.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
 
 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
    ![alt text](image-40.png)
+
+   - Aplikasi memiliki struktur widget yang terdiri dari MaterialApp, PlanProvider, PlanCreatorScreen, Column, TextField, Expanded, dan ListView.
+   - PlanCreatorScreen merupakan tampilan utama yang sedang aktif.
+   - Terjadi sebuah tindakan navigasi yang diwakili oleh panah biru dengan label "Navigator Push".
+   - Tindakan tersebut biasanya dipicu oleh suatu event, misalnya ketika pengguna menekan tombol "Tambah plan" atau yang lain.
+
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat!
+   ![alt text](master_plan2.gif), pada gambar tersebut telah dibuat list atau plan yang bisa ditambah sesuai kebutuhan.
